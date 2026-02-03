@@ -22,12 +22,12 @@ ________________________________________________________________________________
 | Notes: | In Progress|
 _______________________________________________________________________________________________________________
 # Labs
-## Lab #0
+## Lab #1
 | Name | Value |
 | --- | --- |
-| Name: |  |
-| Description: |  |
-| Due Date: |  |
-| Status: |  |
-| Location: |  |
+| Name: | ASCII art |
+| Description: | print ascii art using cout |
+| Due Date: | 2/2/26 |
+| Status: | fin |
+| Location: | https://github.com/Rmperryman/CSCI111-rmperryman/labs//lab1/ascii |
 | Notes: |  |
