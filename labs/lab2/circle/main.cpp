@@ -1,8 +1,8 @@
 /*  
  Circle Lab
- By: FIXME1
+ By: Robin Perryman
  CSCI 111
- Date: FIXME2
+ Date: 2/12/26
  
  This program prompts the user to enter the radius of a circle.
  It then calculates and displays its area and circumference.
@@ -29,7 +29,8 @@ int main() //main entry function that returns 0
 
 	string name = "Anonymous"; // variable to store user's name
 	cout << "Hi there, what's your full name? ";
-	// FIXME3: using getline function, read user's fullname and store it into name variable
+	getline(cin, name);
+	// FIXME3: using getline function, read user's fullname and store it into name variable #FIXED
 
 	cout << "Nice meeting you, " << name << "!" << endl;
 
@@ -42,11 +43,13 @@ int main() //main entry function that returns 0
 	cin >> radius; //read the entered value and store it into radius variable
 
 	area = pi * pow(radius, 2); // same as: area = pi * radius * radius;
-	//FIXME4: calculate circumference and store it into the circumference variable
+	circumference = 2 * pi * radius;
+	//FIXME4: calculate circumference and store it into the circumference variable #FIXED3
 
 	cout << "Your circle has radius: " << fixed << setprecision(6) << radius << endl;
 	cout << "Area of the circle is:\t" << area << '\n';
-	//FIXME5: print the calculated value of circumference
+	cout << "Cirucmference of the circle is \t" << circumference << '\n';
+	//FIXME5: print the calculated value of circumference #FIcd XED
 
 	// the following code may be required to make your console pause...
 	cout << "Good bye...\nHit enter to exit the program!" << '\n';
