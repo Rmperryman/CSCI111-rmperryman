@@ -25,10 +25,12 @@ int main()
 
     // Your solution here
     // declare variables to store input data and answer
-    int a, b, ans;
-    cin >> a;
+    int num1, num2, ans;
+    cin >> num1 >> num2;
     // FIXME1: Read the 2nd number
     // FIXME2: add two numbers using function and store the result into ans variable
+    ans=num1+num2;
+//    ans = add_two_numbers(num1, num2);
     // FIXME3: print the answer
-    return 0;
+    cout << ans << endl;
 }

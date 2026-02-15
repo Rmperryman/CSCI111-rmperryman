@@ -44,6 +44,18 @@
 
 ## Labs
 
+### Lab #2 - B
+
+| Name | Value |
+| :--- | :--- |
+| Name | addtwonumbers |
+| Description | add two numbers from user input, split across multiple files |
+| Due Date | 2/9/26 |
+| Status | fin |
+| Location | https://github.com/Rmperryman/CSCI111-rmperryman/tree/main/labs/lab2/addtwonumbers |
+| Self Grade | 100/100 |
+| Notes |  |
+
 
 ### Lab #2 - A
 
@@ -52,7 +64,7 @@
 | Name | Circle |
 | Description | calculate area and circumference of a circle |
 | Due Date | 2/9/26 |
-| Status |  |
+| Status | fin |
 | Location | https://github.com/Rmperryman/CSCI111-rmperryman/tree/main/labs/lab2/circle |
 | Self Grade | 100/100 |
 | Notes |  |
