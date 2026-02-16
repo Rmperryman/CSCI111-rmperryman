@@ -14,6 +14,19 @@
 
 ## Assignments
 
+### Assignment #2 - r2
+
+| Name | Value |
+| :--- | :--- |
+| Name | R2 |
+| Description | solve kattis problem r2 |
+| Due Date | 2/6/26 |
+| Status | fin |
+| Location | https://github.com/Rmperryman/CSCI111-rmperryman/tree/main/assignments/ |
+| Self Grade | 80/100 |
+| Notes | kattis cli keeps giving error, just submitted through website |
+
+
 ### Assignment #1
 
 | Name | Value |
