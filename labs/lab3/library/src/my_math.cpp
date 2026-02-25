@@ -14,7 +14,7 @@ float cube_root(float x)
 
 float power_of_ten(float x)
 {
-    return pow(10, x);
+    return pow(x, 10);
 }
 
 float log_base_2(float x)
@@ -24,8 +24,8 @@ float log_base_2(float x)
 
 float log_base_10(float x)
 {
-    // FIXME1 - implement function using standard library to find and return log base 10 of x
-    return 0.0;
+    // FIXME1 - implement function using standard library to find and return log base 10 of x #FIXED#
+    return log10(x);
 }
 
 float degree_to_radian(float degree)
@@ -35,12 +35,12 @@ float degree_to_radian(float degree)
 
 float sine_of_radian(float radian)
 {
-    // FIXME2 - implement function using standard library to find and return sine of the given radian value
-    return 0.0;
+    // FIXME2 - implement function using standard library to find and return sine of the given radian value #FIXED#
+    return sin(radian);
 }
 
 float cosine_of_radian(float radian)
 {
-    // FIXME3 - implement function using standard library to find and return cosine of the given radian value
-    return 0.0;
+    // FIXME3 - implement function using standard library to find and return cosine of the given radian value #FIXED#
+    return cos(radian);
 }
