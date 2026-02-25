@@ -25,7 +25,9 @@ int main()
 	string input = "input";
 	// step1. read data
 	input = read_data();
+
 	// FIXME1: Call twilight function passing input as an argument
+	twilight(input);
 	// store the returned result into answer variable
 	string answer = twilight(input);
 	// print answer
@@ -38,6 +40,7 @@ string read_data()
 {
 	string input;
 	// FIXME2: using getline read and store the data into input variable
+	getline(cin,input);
 	// FIXME3 return input data
-	return "FIXME";
+	return input;
 }
