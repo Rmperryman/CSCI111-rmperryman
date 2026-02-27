@@ -27,10 +27,10 @@ int main()
     // declare variables to store input data and answer
     int num1, num2, ans;
     cin >> num1 >> num2;
-    // FIXME1: Read the 2nd number
-    // FIXME2: add two numbers using function and store the result into ans variable
+    // FIXME1: Read the 2nd number #FIXED#
+    // FIXME2: add two numbers using function and store the result into ans variable #FIXED#
     ans=num1+num2;
 //    ans = add_two_numbers(num1, num2);
-    // FIXME3: print the answer
+    // FIXME3: print the answer #FIXED#
     cout << ans << endl;
 }

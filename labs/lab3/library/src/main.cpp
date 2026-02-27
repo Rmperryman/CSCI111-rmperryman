@@ -37,26 +37,26 @@ int main()
     result = floor(number);
     printf("Floor(%f) = %.1f\n", number, result);
     
-    // FIXME4 - Find square root of the number and print the result with 4 decimal points
+    // FIXME4 - Find square root of the number and print the result with 4 decimal points #FIXED#
     result=square_root(number);
     printf("Square Root(%f) = %.4f\n", number, result);
     
-    // FIXME5 - Find log base two of the number and print the result with 3 decimal points
+    // FIXME5 - Find log base two of the number and print the result with 3 decimal points #FIXED#
     result=log_base_10(number);
     printf("Log base 10(%f) = %.3f\n", number, result);
     
     // Pretend the number is in degree, convert it to radian and print the result with 5 decimal points
     input_rad=degree_to_radian(number);
     
-    // FIXME6 - Find sine of the number (in radian) and print the result with 5 decimal points
+    // FIXME6 - Find sine of the number (in radian) and print the result with 5 decimal points #FIXED#
     result=sine_of_radian(input_rad);
     printf("Sin (%f) = %.5f\n", number, result);
     
-    // FIXME7 - Find cosine of the number (in radian) and print the result
+    // FIXME7 - Find cosine of the number (in radian) and print the result #FIXED#
     result=cosine_of_radian(input_rad);
     printf("Cos (%f) = %.1f\n", number, result);
     
-    // FIXME8 - Find power of ten of the number and print the result with no decimal points
+    // FIXME8 - Find power of ten of the number and print the result with no decimal points #FIXED#
     result=power_of_ten(number);
     printf("Power of ten(%f) = %.0f\n", number, result);
 
