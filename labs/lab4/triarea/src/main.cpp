@@ -33,7 +33,7 @@ int main(int argc, char **argv)
     float answer;
     // read height and base into corresponding variables
     cin >> height >> base;
-    // FIXME1: Call area function passing proper arguments
+    // FIXME1: Call area function passing proper arguments #FIXED#
     // store the returned result into answer variable
     answer = area_of_triangle(height, base);
     // print answer
