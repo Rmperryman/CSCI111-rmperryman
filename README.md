@@ -33,7 +33,7 @@
 | Name | fizzbuzz |
 | Description | solve kattis fizzbuzz |
 | Due Date | 2/27/26 |
-| Status | WIP |
+| Status | Fin |
 | Location | https://github.com/Rmperryman/CSCI111-rmperryman/tree/main/assignments/04-loops/fizzbuzz |
 | Self Grade | 100/100 |
 | Notes |  |

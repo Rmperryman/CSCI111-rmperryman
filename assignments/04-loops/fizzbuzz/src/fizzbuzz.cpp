@@ -3,35 +3,62 @@
 #include <cassert>
 using namespace std;
 
-string fizzbuzz(const unsigned a, const unsigned b, const unsigned c){
-        for (int i = 1; i<= c; i++){
+string fizzbuzz(const int a, const int b, int i){
         if (i%a==0 and i%b==0){
-            cout<<"FizzBuzz"<<endl;
+            return "FizzBuzz";
         }
         else if (i%a==0){
-            cout<<"Fizz"<<endl;
+            return "Fizz";
         }
         else if (i%b==0){
-            cout<<"Buzz"<<endl;
+            return "Buzz";
         }
         else{
-            cout<<i<<endl;
+            string ans = to_string(i);
+            return ans;
         }
-    }
 }
 
 void test_fizzbuzz(){
-    unsigned a, b, c;
+    unsigned a, b, i;
     string answer, expected;
 
 
-    a = 1;
+    a = 4;
     b = 2;
-    c = 2;
+    i = 16;
 
-    answer=fizzbuzz(a,b,c);
-    expected = "0";
+    answer=fizzbuzz(a,b,i);
+    expected = "FizzBuzz";
     assert(answer==expected);
+    //test case 1
+
+    a = 1;
+    b = 3;
+    i = 1;
+
+    answer=fizzbuzz(a,b,i);
+    expected = "Fizz";
+    assert(answer==expected);
+    //test case 2
+
+    a = 13;
+    b = 3;
+    i = 9;
+
+    answer=fizzbuzz(a,b,i);
+    expected = "Buzz";
+    assert(answer==expected);
+    //test case 3
+
+    a = 1;
+    b = 3;
+    i = 6;
+
+    answer=fizzbuzz(a,b,i);
+    expected = "FizzBuzz";
+    assert(answer==expected);
+    //test case 4
 
     cerr<<"All test cases passed\n";
 }

@@ -1,15 +1,4 @@
 /*
-    TODO
-    - kattis cli broken for some reason
-    - comments
-    - finish makefile
-    - add screenshots
-    - unit testing
-    - 4 more in/out files
-    - kattis submit
-*/
-
-/*
 Kattis - FizzBuzz
 Loops assignment B
 Updated By: Robin Perryman
@@ -32,9 +21,25 @@ Algorithm:
 using namespace std;
 
 
-int main(){
+int main(int argc, char **argv){
+    if (argc > 1 && string(argv[1]) == "test")
+    {
+        test_fizzbuzz();
+        return 0;
+    }
+    // test argument
+
     int a, b, c;
+    string ans;
     cin>>a>>b>>c;
-    fizzbuzz(a, b, c);
+    // read input
+    for (int i=1; i<=c;i++)
+    // loops c amount of times
+    {
+        ans=fizzbuzz(a, b, i);
+        cout<<ans<<endl;
+        // print answer
+    }
+    
     return 0;
 }

@@ -1,7 +1,7 @@
-accepted: 1
+accepted: 3
 cpu_limit: 1 second
 difficulty: 1.4 Easy
 mem_limit: 1024 MB
 problemid: fizzbuzz
-submissions: 2
+submissions: 4
 title: FizzBuzz
