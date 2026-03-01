@@ -22,4 +22,22 @@ TEST_CASE("Testing area_of_triangle function")
     }
 }
 
-// FIXME3: Write 2nd test case with atleate 2 subcases
+// FIXME3: Write 2nd test case with atleate 2 subcases #FIXED#
+TEST_CASE("Testing area_of_triangle function"){
+    SUBCASE("Test Case 3")
+    {
+        unsigned height = 300;
+        unsigned base = 200;
+        float expected = 30000;
+        float result = area_of_triangle(height, base);
+        CHECK(result == doctest::Approx(expected).epsilon(MAX_ERROR));
+    }
+    SUBCASE("Test Case 4")
+    {
+        unsigned height = 4;
+        unsigned base = 0;
+        float expected = 0;
+        float result = area_of_triangle(height, base);
+        CHECK(result == doctest::Approx(expected).epsilon(MAX_ERROR));
+    }
+}

@@ -35,7 +35,7 @@ int main(int argc, char **argv)
     cin >> height >> base;
     // FIXME1: Call area function passing proper arguments
     // store the returned result into answer variable
-    answer = 0.0f;
+    answer = area_of_triangle(height, base);
     // print answer
     printf("%.7f\n", answer);
     return 0;

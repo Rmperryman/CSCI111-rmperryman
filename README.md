@@ -56,6 +56,41 @@
 
 
 ## Labs
+### Lab #4 - B
+| Name | Value |
+| :--- | :--- |
+| Name | triarea |
+| Description | solve kattis triarea |
+| Due Date | 2/16/26 |
+| Status | fin |
+| Location | https://github.com/Rmperryman/CSCI111-rmperryman/tree/main/labs/lab4/triarea |
+| Self Grade | 100/100 |
+| Notes |  |
+
+### Lab #3 - B
+| Name | Value |
+| :--- | :--- |
+| Name | Thelastproblem |
+| Description | solve kattis thelastproblem |
+| Due Date | 2/9/26 |
+| Status | fin |
+| Location | https://github.com/Rmperryman/CSCI111-rmperryman/tree/main/labs/lab3/thelastproblem |
+| Self Grade | 100/100 |
+| Notes |  |
+
+
+### Lab #3 - A
+
+| Name | Value |
+| :--- | :--- |
+| Name | library |
+| Description | use Cmath library |
+| Due Date | 2/9/26 |
+| Status | fin |
+| Location | https://github.com/Rmperryman/CSCI111-rmperryman/tree/main/labs/lab3/library |
+| Self Grade | 100/100 |
+| Notes |  |
+
 
 ### Lab #2 - B
 
