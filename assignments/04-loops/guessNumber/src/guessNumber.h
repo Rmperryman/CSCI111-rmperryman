@@ -5,3 +5,5 @@ using namespace std;
 int readNumber();
 int randomNumber();
 int checkGuess(const int);
+int game();
+void test_checkGuess();

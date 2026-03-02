@@ -1,6 +1,8 @@
 #include<iostream>
 #include<cstdlib>
 #include<ctime>
+#include"guessNumber.h"
+#include <cassert>
 using namespace std;
 
 /*
@@ -25,19 +27,20 @@ int randomNumber(){
 }
 
 int readNumber(){
-    int guess =0;
-    cout << "Enter guess (1-20): ";
-    cin >> guess;
-    if (1 <= guess && guess <= 20){
-        return guess;
-    }
-    // check if the input number is between 1-20
+    int guess = 0;
+    for(;;){
+        cout << "Enter guess (1-20): ";
+        cin >> guess;
+        if (1 <= guess && guess <= 20){
+            return guess;
+        }
+        // check if the input number is between 1-20
 
-    else{
-        cout << "Your number is not within the range of [1,20]. Try again: ";
-        readNumber();
+        else{
+            cout << "Your number is not within the range of [1,20]. Try again:\n";
+        }
+        // take another input if outside parameters
     }
-    // take another input if outside parameters
 }
 
 int checkGuess(int random, int guess){
@@ -47,30 +50,61 @@ int checkGuess(int random, int guess){
     else if (guess < random)
         return -1;
     // guess too low
-    else
+    else if (guess == random)
         return 0;
     // d('-')
 }
 
-int game(string name){
+int game(){
     int random, guess, check;
     // needed variables for game
+    random = randomNumber();
     for (int i = 0; i < 6; i++){
         guess = readNumber();
         check = checkGuess(random, guess);
         // take and check the user's guess
-
-        if (check = 2){
-            cout << "Your guess is too high.";
+        if ((i>=5)){
+            return 13;
         }
-        else if (check = -1){
-            cout << "Your guess is too low.";
+        //fail @ 6 attempts
+
+        if ((check == 2)){
+            cout << "Your guess is too high.\n";
+        }
+        else if ((check == -1)){
+            cout << "Your guess is too low.\n";
         }
         // too high/low, should go back to start after
 
-        else if (check = 0){
-            cout << "Congratulaitons, " << name << "! You WIN!! You guessed my number in " << i+1 << " guesses.\nWould you like to play again? Enter [Y/y], anything else to quit.";
+        else if ((check == 0)){
+            return (i+1);
         }
+        // return number of attempts made to win
     }
     return 0;
+}
+
+void test_checkGuess(){
+    int random, guess, ans, expected;
+
+    random = 10;
+    guess = 12;
+    ans = checkGuess(random, guess);
+    expected = 2;
+    assert((ans == expected));
+    // test case 1
+
+    random = 10;
+    guess = 7;
+    ans = checkGuess(random, guess);
+    expected = (-1);
+    assert((ans == expected));
+    // test case 2
+
+    random = 4;
+    guess = 4;
+    ans = checkGuess(random, guess);
+    expected = 0;
+    assert((ans==expected));
+    // test case 3    
 }

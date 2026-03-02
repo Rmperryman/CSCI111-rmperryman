@@ -21,7 +21,7 @@
 | Name | Guess the number game |
 | Description | create simple game to guess a number generated with rand() |
 | Due Date | 2/27/26 |
-| Status | WIP |
+| Status | fin |
 | Location | https://github.com/Rmperryman/CSCI111-rmperryman/tree/main/assignments/04-loops/guessNumber |
 | Self Grade | 100/100 |
 | Notes |  |
