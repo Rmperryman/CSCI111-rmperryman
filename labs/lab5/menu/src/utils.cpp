@@ -45,19 +45,20 @@ double find_sum(const double &n1, const double &n2)
 
 double find_difference(const double &n1, const double &n2)
 {
-    // FIXME1 - subtract n2 from n1 and return the difference
-    return 0;
+    // FIXME1 - subtract n2 from n1 and return the difference #FIZED#
+    return (n1-n2);
 }
 
 double find_product(const double &n1, const double &n2)
 {
-    // FIXME2 - multiply n1 by n2 and return the product
-    return 0;
+    // FIXME2 - multiply n1 by n2 and return the product #FIXED#
+    return (n1*n2);
 }
 
 void find_average(const double &n1, const double &n2, double &avg)
 {
-    // FIXME3 - find the average of n1 and n2 and update avg
+    // FIXME3 - find the average of n1 and n2 and update avg 
+    avg = (find_sum(n1,n2)/2);
     // FIXME4 - Must call find_sum function to find the sum of n1 and n2
     //  Note: this void function doesn't return a value but
     //  the average will be stored in avg
@@ -72,14 +73,16 @@ double find_larger(const double &n1, const double &n2)
 
 double find_smaller(const double &n1, const double &n2)
 {
-    // FIXME5 - find the smaller of n1 and n2 and return it
+    // FIXME5 - find the smaller of n1 and n2 and return it #FIXED#
+    double smaller = (n1 <= n2) ? n1 : n2;
+    return smaller;
     return 0;
 }
 
 double find_quotient(const double &n1, const double &n2)
 {
-    // FIXME6 - divide n1 by n2 and return the quotient
-    return 0;
+    // FIXME6 - divide n1 by n2 and return the quotient #FIXED#
+    return (n1/n2);
 }
 
 // functions to run automated testing for various user-defined functions
@@ -90,9 +93,43 @@ void test()
     assert(answer == expected);        // test case 1
     assert(find_sum(-5, 10.5) == 5.5); // test case 2
 
-    // FIXME7 – Using assert function write at least 2 test cases for each of the following functions
-    // find_difference(), find_product(), find_larger(),
-    // find_smaller(), find_quotient(), find_average()
+    // FIXME7 – Using assert function write at least 2 test cases for each of the following functions #FIXED#
+    
+    // find_difference()
+    answer = find_difference(4, 2);
+    expected = 2;
+    assert(answer == expected);        // test case 1
+    assert(find_difference(4, 2) == 2); // test case 2
+
+    // find_product() 
+    answer = find_product(10, 6);
+    expected = 60;
+    assert(answer == expected);        // test case 1
+    assert(find_product(7, 3) == 21); // test case 2
+
+    // find_larger()
+    answer = find_larger(12, 0.6);
+    expected = 12;
+    assert(answer == expected);        // test case 1
+    assert(find_larger(1.2, 1.7) == 1.7); // test case 2
+
+    // find_smaller()
+    answer = find_smaller(1.4, 1.3);
+    expected = 1.3;
+    assert(answer == expected);        // test case 1
+    assert(find_smaller(4, 12) == 4); // test case 2
+
+    // find_quotient(),
+    answer = find_quotient(9, 3);
+    expected = 3;
+    assert(answer == expected);        // test case 1
+    assert(find_quotient(16, 4) == 4); // test case 2
+
+    // find_average()
+    find_average(16, 4, answer);
+    expected = 10;
+    assert(answer == expected);        // test case 1
+
     cerr << "all test cases passed..." << endl;
 }
 
@@ -135,16 +172,30 @@ bool program()
     }
     case 2:
     {
-        // FIXME8: call get_two_numbers function
-        // FIXME9: call find_difference function and print the result
+        // FIXME8: call get_two_numbers function #FIXED#
+        get_two_numbers(num1, num2);
+        // FIXME9: call find_difference function and print the result #FIXED#
+        double difference = find_difference(num1, num2);
+        printf("%.2f - %.2f = %.2f\n", num1, num2, difference);
         break;
     }
     case 3:
     {
-        // FIXME10: get two numbers and find their product using functions
+        // FIXME10: get two numbers and find their product using functions #FIXED#
+        get_two_numbers(num1, num2);
+        double product = find_product(num1, num2);
+        printf("%.2f * %.2f = %.2f\n", num1, num2, product);
         break;
     }
-    // FIXME11: complete the rest of the cases 4, 6, and 7
+    // FIXME11: complete the rest of the cases 4, 6, and 7 #FIXED#
+    case 4:
+    {
+        get_two_numbers(num1, num2);
+        double quotient = find_quotient(num1, num2);
+        printf("quotient of %.2f & %.2f is %.2f\n", num1, num2, quotient);
+        break;
+
+    }
     case 5:
     {
         // get two numbers
@@ -153,6 +204,21 @@ bool program()
         double max = find_larger(num1, num2);
         // print the result
         printf("larger between %.2f & %.2f is %.2f\n", num1, num2, max);
+        break;
+    }
+    case 6:
+    {
+        get_two_numbers(num1, num2);
+        double min = find_smaller(num1, num2);
+        printf("smaller between %.2f & %.2f is %.2f\n", num1, num2, min);
+        break;
+    }
+    case 7:
+    {
+        get_two_numbers(num1, num2);
+        double avg = 1;
+        find_average(num1, num2, avg);
+        printf("average of %.2f & %.2f is %.2f\n", num1, num2, avg);
         break;
     }
     case 8:

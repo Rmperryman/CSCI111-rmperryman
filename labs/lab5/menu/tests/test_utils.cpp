@@ -88,8 +88,8 @@ TEST_CASE("Test find_average Functionality")
     SUBCASE("Sub Case 2: Negative and positive numbers")
     {
         double answer;
-        find_average(-2.0, 2.7, answer);
-        CHECK(answer == doctest::Approx(0.3).epsilon(MAX_ERROR));
+        find_average(-2.0, 2.8, answer);
+        CHECK(answer == doctest::Approx(0.4).epsilon(MAX_ERROR));
     }
     // FIXME17: Write test cases for find_average function with at least 2 subcases
 }

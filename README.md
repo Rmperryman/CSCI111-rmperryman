@@ -80,6 +80,29 @@
 
 
 ## Labs
+
+### Lab #5 - B
+| Name | Value |
+| :--- | :--- |
+| Name | twostones |
+| Description | solve kattis problem Twostones |
+| Due Date |  |
+| Status | fin |
+| Location | https://github.com/Rmperryman/CSCI111-rmperryman/tree/main/labs/lab5/twostones |
+| Self Grade | 100/100 |
+| Notes |  |
+
+### Lab #5 - A
+| Name | Value |
+| :--- | :--- |
+| Name | menu |
+| Description | menu which inputs two numbers and does basic math |
+| Due Date |  |
+| Status | fin |
+| Location | https://github.com/Rmperryman/CSCI111-rmperryman/tree/main/labs/lab5/menu |
+| Self Grade | 100/100 |
+| Notes |  |
+
 ### Lab #4 - B
 | Name | Value |
 | :--- | :--- |

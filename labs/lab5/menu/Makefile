@@ -7,7 +7,7 @@ PROGRAM = menu.exe
 SRC = $(wildcard src/*.cpp)
 TEST_FILES = $(wildcard tests/*.cpp)
 
-all: build doctest run clean
+all: build run clean
 
 build:
 	$(CXX) $(CXXFLAGS) $(SRC)

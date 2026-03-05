@@ -1,8 +1,8 @@
 /*
 Conditional Lab
 
-Programmer: [Your Name]
-Date: [Today's Date]
+Programmer: Robin Perryman
+Date: 3/3/26
 
 Program finds statistical values of two given numbers using user-defined functions.
 
