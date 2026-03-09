@@ -1,8 +1,8 @@
 /*
     Loops Lab
-    Updated By: [Your Name Here]
+    Updated By: Robin Perryman
     CSCI 111
-    Date: [Today's Date Here]
+    Date: 3/4/26
 
     Program prints geometric shapes of given height with * using loops
 */

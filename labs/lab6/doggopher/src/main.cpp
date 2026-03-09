@@ -1,9 +1,9 @@
 /*
 Kattis - Dog & Gopher
 Loop Lab
-Updated By: [Your Name]
+Updated By: Robin Perryman
 CSCI 111
-Date: [Today's Date]
+Date: 3/4/26
 
 Read and solve the Kattis problem: https://open.kattis.com/problems/doggopher
 
@@ -34,19 +34,20 @@ int main(int argc, char *argv[])
     ios_base::sync_with_stdio(false);
     cin.tie(NULL);
 
-    float gopherX, gopherY;
+    float gopherX, gopherY, dogX, dogY;
     float x, y; // varibles to read gopher hole coordinates
     string answer = "The gopher cannot escape.";
     float gopher_dist, dog_dist = 0;
     // read gopher's coordinates
-    cin >> gopherX >> gopherY;
-    // FIXME1: read dog's coordinates
+    cin >> gopherX >> gopherY >> dogX >> dogY;
+    // FIXME1: read dog's coordinates #FIXED#
     while (cin >> x >> y)
     { // while there's hole coordinates to read
         // find gopher's distance from (x, y)
         gopher_dist = distance(gopherX, gopherY, x, y);
         // store the returned result into answer variable
-        // FIXME2: find dog's distance from (x, y)
+        // FIXME2: find dog's distance from (x, y) #FIXED#
+        dog_dist = distance(dogX, dogY, x, y);
         if (dog_dist >= 2 * gopher_dist)
         {
             ostringstream oss;

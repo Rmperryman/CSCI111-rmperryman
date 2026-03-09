@@ -81,12 +81,23 @@
 
 ## Labs
 
+### Lab #6 - A
+| Name | Value |
+| :--- | :--- |
+| Name | doggopher |
+| Description | solve kattis problem doggopher |
+| Due Date | 3/2/26 |
+| Status | fin |
+| Location | https://github.com/Rmperryman/CSCI111-rmperryman/tree/main/labs/lab6/doggopher |
+| Self Grade | 100/100 |
+| Notes |  |
+
 ### Lab #5 - B
 | Name | Value |
 | :--- | :--- |
 | Name | twostones |
 | Description | solve kattis problem Twostones |
-| Due Date |  |
+| Due Date | 2/23/26 |
 | Status | fin |
 | Location | https://github.com/Rmperryman/CSCI111-rmperryman/tree/main/labs/lab5/twostones |
 | Self Grade | 100/100 |
@@ -97,7 +108,7 @@
 | :--- | :--- |
 | Name | menu |
 | Description | menu which inputs two numbers and does basic math |
-| Due Date |  |
+| Due Date | 2/23/26 |
 | Status | fin |
 | Location | https://github.com/Rmperryman/CSCI111-rmperryman/tree/main/labs/lab5/menu |
 | Self Grade | 100/100 |
