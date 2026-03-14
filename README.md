@@ -14,7 +14,32 @@
 
 ## Assignments
 
-### Assignment #4 B
+### Assignment #6 B
+
+| Name | Value |
+| :--- | :--- |
+| Name | Guess the number game |
+| Description | create simple game to guess a number generated with rand() |
+| Due Date | 3/13/26 |
+| Status | WIP |
+| Location | https://github.com/Rmperryman/CSCI111-rmperryman/tree/main/assignments/06-strings/avion |
+| Self Grade | 100/100 |
+| Notes |  |
+
+### Assignment #6 A
+
+| Name | Value |
+| :--- | :--- |
+| Name | Apaxiaaaaaaaaans |
+| Description | solve kattis problem Apaxiaaaaaaaaans |
+| Due Date | 3/13/26 |
+| Status | WIP |
+| Location | https://github.com/Rmperryman/CSCI111-rmperryman/tree/main/assignments/06-strings/apaxiaans |
+| Self Grade | 100/100 |
+| Notes |  |
+
+
+### Assignment #5 B
 
 | Name | Value |
 | :--- | :--- |
@@ -22,11 +47,11 @@
 | Description | create simple game to guess a number generated with rand() |
 | Due Date | 2/27/26 |
 | Status | fin |
-| Location | https://github.com/Rmperryman/CSCI111-rmperryman/tree/main/assignments/04-loops/guessNumber |
+| Location | https://github.com/Rmperryman/CSCI111-rmperryman/tree/main/assignments/05-loops/guessNumber |
 | Self Grade | 100/100 |
 | Notes |  |
 
-### Assignment #4 A
+### Assignment #5 A
 
 | Name | Value |
 | :--- | :--- |
@@ -34,7 +59,7 @@
 | Description | solve kattis fizzbuzz |
 | Due Date | 2/27/26 |
 | Status | Fin |
-| Location | https://github.com/Rmperryman/CSCI111-rmperryman/tree/main/assignments/04-loops/fizzbuzz |
+| Location | https://github.com/Rmperryman/CSCI111-rmperryman/tree/main/assignments/05-loops/fizzbuzz |
 | Self Grade | 100/100 |
 | Notes |  |
 
