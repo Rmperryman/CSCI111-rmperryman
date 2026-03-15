@@ -33,7 +33,7 @@
 | Name | Apaxiaaaaaaaaans |
 | Description | solve kattis problem Apaxiaaaaaaaaans |
 | Due Date | 3/13/26 |
-| Status | WIP |
+| Status | fin |
 | Location | https://github.com/Rmperryman/CSCI111-rmperryman/tree/main/assignments/06-strings/apaxiaans |
 | Self Grade | 100/100 |
 | Notes |  |

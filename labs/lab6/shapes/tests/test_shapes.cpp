@@ -17,4 +17,11 @@ TEST_CASE("Testing get_triangle function")
         std::string expected_5 = "* \n* * \n* * * \n* * * * \n* * * * * \n";
         CHECK(triangle_5.str() == expected_5);
     }
+
+    SUBCASE("Height 3 flipped")
+    {
+        std::stringstream triangle_3 = get_flipped_triangle(3);
+        std::string expected_3 = "* * * \n * * \n * \n";
+        CHECK(triangle_3.str() == expected_3);
+    }
 }

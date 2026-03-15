@@ -51,7 +51,18 @@ std::stringstream get_flipped_triangle(int height)
 
     */
     // FIXME1 ...
-    return std::stringstream();
+
+   int row = 1;
+   std::stringstream ss;
+    while (row <= height)
+    {
+        // column
+        for (int col = height; col <= row; col--)
+            ss << "* ";
+       row += 1;
+        ss << endl;
+    }
+    return ss;
 }
 
 /*
@@ -67,6 +78,15 @@ Square of height 5, e.g., would look like the following.
 *  *  *  *  *
 
 */
+std::stringstream get_square(int height)
+{
+    int row = 1;
+    std:stringstream ss;
+    while (row<=height){
+        
+    }
+    return ss;
+}
 
 // function clears the screen system call
 // NOTE: system call is not a security best pracice!
