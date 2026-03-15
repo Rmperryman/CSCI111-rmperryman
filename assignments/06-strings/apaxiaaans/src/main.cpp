@@ -27,7 +27,10 @@ int main(int argc, char **argv){
 
 
     string name;
+    // declare input var
     cin >> name;
+    // take input var
     cout << convert(name) << endl;
+    // use convert function to make a string with no duplicates, then print that string
     return 0;
 }

@@ -18,10 +18,10 @@
 
 | Name | Value |
 | :--- | :--- |
-| Name | Guess the number game |
-| Description | create simple game to guess a number generated with rand() |
+| Name | avion |
+| Description | solve kattis problem avion |
 | Due Date | 3/13/26 |
-| Status | WIP |
+| Status | fin |
 | Location | https://github.com/Rmperryman/CSCI111-rmperryman/tree/main/assignments/06-strings/avion |
 | Self Grade | 100/100 |
 | Notes |  |

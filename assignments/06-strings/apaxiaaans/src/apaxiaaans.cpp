@@ -5,14 +5,19 @@ using namespace std;
 
 string convert(string name){
     string ans = string(1, name[0]);
+    // make a variable from the first letter of input string
     for (int n=1 ; n<name.size() ; n++)
+    // loop through the entire input string
     {
         if (name[n] != name[n-1])
+        // check if each letter is the same character is not the same as the previous one
         {
             ans += string(1, name[n]);
+            // if letter is unique compared to previous letter, add said letter to the answer variable
         }
     }
     return ans;
+    // completed variable should just be each letter of the input var without duplicates
 }
 
 void test_convert(){
