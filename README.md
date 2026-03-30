@@ -14,6 +14,18 @@
 
 ## Assignments
 
+### Assignment #7 A
+
+| Name | Value |
+| :--- | :--- |
+| Name | lineup |
+| Description | solve kattis problem lineup |
+| Due Date | 3/27/26 |
+| Status | fin |
+| Location | https://github.com/Rmperryman/CSCI111-rmperryman/tree/main/assignments/07-array/lineup |
+| Self Grade | 100/100 |
+| Notes |  |
+
 ### Assignment #6 B
 
 | Name | Value |
