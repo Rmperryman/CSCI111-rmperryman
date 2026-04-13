@@ -14,6 +14,32 @@
 
 ## Assignments
 
+### Assignment #8
+
+| Name | Value |
+| :--- | :--- |
+| Name | grading |
+| Description | file I/O readiing and writing text files |
+| Due Date |  |
+| Status | WIP |
+| Location | https://github.com/Rmperryman/CSCI111-rmperryman/tree/main/assignments/08-struct |
+| Self Grade |  |
+| Notes |  |
+
+
+### Assignment #7 B
+
+| Name | Value |
+| :--- | :--- |
+| Name | fallingapart |
+| Description | solve kattis problem fallingapart |
+| Due Date | 3/27/26 |
+| Status | WIP |
+| Location | https://github.com/Rmperryman/CSCI111-rmperryman/tree/main/assignments/07-array/fallingapart |
+| Self Grade |  |
+| Notes |  |
+
+
 ### Assignment #7 A
 
 | Name | Value |
