@@ -171,6 +171,7 @@ int main(int argc, char **argv){
     writefile
     <<setw(78)<<setfill('=')<<""<<setfill(' ')<<endl;
 
+    // segment for whole class stats by letter grade
     for(int i=0;i<6;i++)
     {
         if (i==4)continue;
