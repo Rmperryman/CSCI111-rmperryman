@@ -21,26 +21,13 @@
 | Name | grading |
 | Description | file I/O readiing and writing text files |
 | Due Date |  |
-| Status | WIP |
+| Status | FIN |
 | Location | https://github.com/Rmperryman/CSCI111-rmperryman/tree/main/assignments/08-struct |
-| Self Grade |  |
+| Self Grade | 100/00 |
 | Notes |  |
 
 
 ### Assignment #7 B
-
-| Name | Value |
-| :--- | :--- |
-| Name | fallingapart |
-| Description | solve kattis problem fallingapart |
-| Due Date | 3/27/26 |
-| Status | WIP |
-| Location | https://github.com/Rmperryman/CSCI111-rmperryman/tree/main/assignments/07-array/fallingapart |
-| Self Grade |  |
-| Notes |  |
-
-
-### Assignment #7 A
 
 | Name | Value |
 | :--- | :--- |
@@ -50,6 +37,19 @@
 | Status | fin |
 | Location | https://github.com/Rmperryman/CSCI111-rmperryman/tree/main/assignments/07-array/lineup |
 | Self Grade | 100/100 |
+| Notes |  |
+
+
+### Assignment #7 A
+
+| Name | Value |
+| :--- | :--- |
+| Name | fallingapart |
+| Description | solve kattis problem fallingapart |
+| Due Date | 3/27/26 |
+| Status | WIP |
+| Location | https://github.com/Rmperryman/CSCI111-rmperryman/tree/main/assignments/07-array/fallingapart |
+| Self Grade |  |
 | Notes |  |
 
 ### Assignment #6 B

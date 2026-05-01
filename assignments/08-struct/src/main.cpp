@@ -68,22 +68,20 @@ int main(int argc, char **argv){
         return 0;
     }
     // test argument
+
     vector<student> studentlist;
     vector<stats> statistics(4);
     int gradecount[6]={0}; 
+    // counter for the letter grades A,B,C,D,E,F
+    // E to be ignored later
     string inputfile,outputfile;
 
     //input prompt
     cout<<"Input file name: ";
     cin>>inputfile;
 
-    if(inputfile.length()==1)
-    {
-        inputfile="students.in";
-    }
     ifstream readfile(inputfile);
-    //readfile.open(inputfile.c_str());
-
+    
     // error case taken from example code
     if (!readfile) {
     cout << "Error opening input file.\n";
@@ -132,6 +130,7 @@ int main(int argc, char **argv){
     writefile
     <<setw(78)<<setfill('=')<<""<<setfill(' ')<<endl;
 
+    // filling out template made earlier with information read from input file
     for (const auto&s:studentlist)
     {
         writefile
@@ -158,6 +157,8 @@ int main(int argc, char **argv){
         statistics[i].min=min_element(studentlist.begin(),studentlist.end(), [i](const student&a, const student&b)
         {return a.score[i]<b.score[i];})->score[i];
     }
+
+    // stats for the entire class
     writefile
     <<setw(30)<<left<<"Class average: "<<right<<fixed<<setprecision(2)
     <<setw(8)<<statistics[0].average<<setw(8)<<statistics[1].average<<statistics[2].average<<setw(8)<<statistics[3].average<<endl;
@@ -173,6 +174,7 @@ int main(int argc, char **argv){
     for(int i=0;i<6;i++)
     {
         if (i==4)continue;
+        // skip E grade
         gradecount[i]=(static_cast<double>(gradecount[i])/static_cast<double>(studentlist.size()))*100;
         string glabel= "Total "+string(1,'A'+i)+"s: ";
         writefile
