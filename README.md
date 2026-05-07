@@ -12,6 +12,19 @@
 | **GitHub Username**         | Rmperryman |
 | **Repository**          | https://github.com/Rmperryman/CSCI111-rmperryman |
 
+## Final Project
+
+| Name | Value |
+| :--- | :--- |
+| Name | Password Check |
+| Description | file I/O readiing and writing text files |
+| Due Date |  |
+| Status | FIN |
+| Location | https://github.com/Rmperryman/CSCI111-rmperryman/tree/main/assignments/08-struct |
+| Self Grade | 100/00 |
+| Notes |  |
+
+
 ## Assignments
 
 ### Assignment #8
