@@ -14,16 +14,27 @@
 
 ## Final Project
 
+### Final Project
 | Name | Value |
 | :--- | :--- |
 | Name | Password Check |
 | Description | file I/O readiing and writing text files |
 | Due Date |  |
 | Status | FIN |
-| Location | https://github.com/Rmperryman/CSCI111-rmperryman/tree/main/assignments/08-struct |
+| Location | https://github.com/Rmperryman/CSCI111-rmperryman/tree/main/assignments/final_project |
 | Self Grade | 100/00 |
 | Notes |  |
 
+### Extra credit
+| Name | Value |
+| :--- | :--- |
+| Name | Extra credit |
+| Description | solve 5 kattis problems |
+| Due Date |  |
+| Status | FIN |
+| Location | https://github.com/Rmperryman/CSCI111-rmperryman/tree/main/assignments/extracredit |
+| Self Grade | 100/00 |
+| Notes | assortment of 5 random easy problems I found on youtube |
 
 ## Assignments
 
